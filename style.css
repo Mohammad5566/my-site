@@ -1,0 +1,345 @@
+/* Reset and base styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Lato', Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #fbfbfb;
+    font-size: 16px;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 40px 20px;
+}
+
+/* Typography */
+h1 {
+    font-size: 2.5em;
+    font-weight: 400;
+    margin-bottom: 0.5em;
+    color: #32373c;
+}
+
+h2 {
+    font-size: 1.8em;
+    font-weight: 400;
+    margin: 2em 0 1em 0;
+    color: #32373c;
+    border-bottom: none;
+}
+
+h3 {
+    font-size: 1.2em;
+    font-weight: 700;
+    margin-bottom: 0.5em;
+    color: #32373c;
+}
+
+p {
+    margin-bottom: 1em;
+    line-height: 1.7;
+}
+
+/* Links */
+a {
+    color: #59bab0;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Header section */
+.header-section {
+    display: flex;
+    gap: 40px;
+    margin-bottom: 2em;
+    align-items: flex-start;
+}
+
+.intro-content {
+    flex: 2;
+}
+
+.current-position {
+    font-size: 1.1em;
+    margin-bottom: 1.5em;
+}
+
+.profile-section {
+    flex: 1;
+    text-align: center;
+    min-width: 250px;
+}
+
+.profile-photo {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 1em;
+}
+
+.contact-info {
+    font-size: 0.95em;
+    line-height: 1.5;
+}
+
+.links {
+    margin-top: 0.5em;
+}
+
+.download-icon {
+    font-size: 0.8em;
+}
+
+/* News section */
+.news-item {
+    display: flex;
+    gap: 20px;
+    align-items: flex-start;
+    margin-bottom: 2em;
+}
+
+.news-image {
+    width: 120px;
+    height: 80px;
+    object-fit: cover;
+    flex-shrink: 0;
+}
+
+.news-content h3 {
+    font-size: 1.1em;
+    margin-bottom: 0.3em;
+    font-weight: 600;
+}
+
+.news-author {
+    color: #666;
+    font-size: 0.9em;
+    margin-bottom: 0.5em;
+}
+
+/* Research section */
+.research-item {
+    display: flex;
+    gap: 20px;
+    align-items: flex-start;
+    margin-bottom: 2.5em;
+}
+
+.research-image {
+    width: 120px;
+    height: auto;
+    object-fit: cover;
+    flex-shrink: 0;
+}
+
+.research-content h3 {
+    font-size: 1.1em;
+    margin-bottom: 0.3em;
+    font-weight: 600;
+}
+
+.authors {
+    color: #666;
+    font-size: 0.95em;
+    margin-bottom: 0.3em;
+}
+
+.venue {
+    font-style: italic;
+    color: #666;
+    font-size: 0.9em;
+    margin-bottom: 0.5em;
+}
+
+/* Projects section */
+.project-item {
+    display: flex;
+    gap: 20px;
+    align-items: flex-start;
+    margin-bottom: 2.5em;
+}
+
+.project-image {
+    width: 120px;
+    height: auto;
+    object-fit: cover;
+    flex-shrink: 0;
+}
+
+.project-content h3 {
+    font-size: 1.1em;
+    margin-bottom: 0.3em;
+    font-weight: 600;
+}
+
+.project-content code {
+    background-color: #f4f4f4;
+    padding: 2px 4px;
+    border-radius: 3px;
+    font-family: 'Courier New', monospace;
+    font-size: 0.9em;
+}
+
+/* Teaching section */
+.teaching-item {
+    display: flex;
+    gap: 20px;
+    align-items: flex-start;
+    margin-bottom: 2.5em;
+}
+
+.teaching-logo {
+    width: 60px;
+    height: 60px;
+    object-fit: contain;
+    flex-shrink: 0;
+}
+
+.teaching-content h3 {
+    font-size: 1.1em;
+    margin-bottom: 0.5em;
+    font-weight: 600;
+}
+
+.teaching-content ul {
+    margin: 0.5em 0 0.5em 1.5em;
+}
+
+.teaching-content li {
+    margin-bottom: 0.3em;
+}
+
+/* Awards section */
+.awards-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.awards-section li {
+    margin-bottom: 1em;
+    line-height: 1.6;
+}
+
+/* Work section */
+.work-item {
+    margin-bottom: 1.5em;
+}
+
+.work-item h3 {
+    font-size: 1.1em;
+    margin-bottom: 0.2em;
+    font-weight: 600;
+}
+
+.position {
+    color: #666;
+    font-style: italic;
+    margin-bottom: 0.5em;
+}
+
+/* Organizations section */
+.organizations-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.organizations-section li {
+    margin-bottom: 1em;
+    line-height: 1.6;
+}
+
+.organizations-section em {
+    color: #666;
+}
+
+/* Links section */
+.links-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.links-section li {
+    margin-bottom: 0.5em;
+}
+
+/* Footer */
+footer {
+    margin-top: 3em;
+    padding-top: 2em;
+    border-top: 1px solid #e0e0e0;
+    text-align: right;
+    color: #666;
+    font-size: 0.9em;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+    .header-section {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .profile-section {
+        order: -1;
+        margin-bottom: 2em;
+    }
+
+    .news-item,
+    .research-item,
+    .project-item,
+    .teaching-item {
+        flex-direction: column;
+    }
+
+    .news-image,
+    .research-image,
+    .project-image,
+    .teaching-logo {
+        width: 100%;
+        max-width: 300px;
+        height: auto;
+        margin-bottom: 1em;
+        align-self: center;
+    }
+
+    .container {
+        padding: 20px 15px;
+    }
+
+    h1 {
+        font-size: 2em;
+    }
+
+    h2 {
+        font-size: 1.5em;
+    }
+}
+
+/* Print styles */
+@media print {
+    body {
+        background: white;
+        color: black;
+    }
+
+    .container {
+        max-width: none;
+        padding: 0;
+    }
+
+    .profile-photo {
+        width: 150px;
+        height: 150px;
+    }
+}
