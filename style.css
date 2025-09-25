@@ -9,12 +9,12 @@ body {
     font-family: 'Lato', Arial, sans-serif;
     line-height: 1.6;
     color: #333;
-    background-color: #fbfbfb;
-    font-size: 16px;
+    background-color: #1a1a1a;
+    color: #f5f5f5;
 }
 
 .container {
-    max-width: 1000px;
+    max-width: 800px;
     margin: 0 auto;
     padding: 40px 20px;
 }
@@ -24,14 +24,14 @@ h1 {
     font-size: 2.5em;
     font-weight: 400;
     margin-bottom: 0.5em;
-    color: #32373c;
+    color: #e0e0e0;
 }
 
 h2 {
     font-size: 1.8em;
     font-weight: 400;
     margin: 2em 0 1em 0;
-    color: #32373c;
+    color: #e0e0e0;
     border-bottom: none;
 }
 
@@ -39,7 +39,7 @@ h3 {
     font-size: 1.2em;
     font-weight: 700;
     margin-bottom: 0.5em;
-    color: #32373c;
+    color: #e0e0e0;
 }
 
 p {
@@ -49,7 +49,7 @@ p {
 
 /* Links */
 a {
-    color: #59bab0;
+    color: #4a9eff;
     text-decoration: none;
 }
 
@@ -83,9 +83,11 @@ a:hover {
 .profile-photo {
     width: 200px;
     height: 200px;
-    border-radius: 50%;
-    object-fit: cover;
+    border-radius: 20px;
+    object-fit: none;
     margin-bottom: 1em;
+    transform: scale(1.3);
+    transform-origin: center;
 }
 
 .contact-info {
@@ -123,7 +125,7 @@ a:hover {
 }
 
 .news-author {
-    color: #666;
+    color: #b0b0b0;
     font-size: 0.9em;
     margin-bottom: 0.5em;
 }
@@ -150,14 +152,14 @@ a:hover {
 }
 
 .authors {
-    color: #666;
+    color: #b0b0b0;
     font-size: 0.95em;
     margin-bottom: 0.3em;
 }
 
 .venue {
     font-style: italic;
-    color: #666;
+    color: #b0b0b0;
     font-size: 0.9em;
     margin-bottom: 0.5em;
 }
@@ -184,7 +186,7 @@ a:hover {
 }
 
 .project-content code {
-    background-color: #f4f4f4;
+    background-color: #2d2d2d;
     padding: 2px 4px;
     border-radius: 3px;
     font-family: 'Courier New', monospace;
@@ -243,7 +245,7 @@ a:hover {
 }
 
 .position {
-    color: #666;
+    color: #b0b0b0;
     font-style: italic;
     margin-bottom: 0.5em;
 }
@@ -260,7 +262,7 @@ a:hover {
 }
 
 .organizations-section em {
-    color: #666;
+    color: #b0b0b0;
 }
 
 /* Links section */
@@ -277,9 +279,9 @@ a:hover {
 footer {
     margin-top: 3em;
     padding-top: 2em;
-    border-top: 1px solid #e0e0e0;
+    border-top: 1px solid #404040;
     text-align: right;
-    color: #666;
+    color: #b0b0b0;
     font-size: 0.9em;
 }
 
