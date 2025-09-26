@@ -1,2 +1,2 @@
 # my-site
-personal website
+Personal website for Mohammad Mahmud. Proudly made using AI (Windsurf and ChatGPT)
